@@ -1,0 +1,26 @@
+.TodoItem{
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+
+    padding: 15px 0px;
+    border-bottom: 1px solid rgb(236, 236, 236);
+}
+
+.TodoItem .info_section{
+    flex: 1;
+    cursor: pointer;
+}
+
+.TodoItem .info_section .created_date{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.TodoItem .info_section .content{
+    font-size: 18px;
+}
+
+.TodoItem .button_section{
+    min-width: 70px;
+}
